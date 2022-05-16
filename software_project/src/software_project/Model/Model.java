@@ -8,9 +8,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import software_project.connection;
+import  software_project.connection;
 
 
+/**
+ *
+ * @author ALMASA
+ */
 public class Model {
 
     private long metercode;
@@ -67,7 +71,7 @@ public class Model {
 
     public String QueryOfLoginAdmin() throws SQLException {
         String sql;
-        sql = "select username,password from admin";
+        sql = "select username,pass from admin";
         return sql;
     }
      public String QueryOfLoginCustomer() throws SQLException {
@@ -77,7 +81,7 @@ public class Model {
     }
       public String QueryOfLoginOperator() throws SQLException {
         String sql;
-        sql = "select username,password from operator";
+        sql = "select username,pass from operator";
         return sql;
     }
 

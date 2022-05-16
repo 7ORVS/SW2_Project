@@ -4,7 +4,6 @@ package software_project.GUI;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author DELL
@@ -118,7 +117,10 @@ public class AddUserChoiceView extends javax.swing.JFrame {
     }//GEN-LAST:event_updateAdministratorActionPerformed
 
     private void backToAdminChoiceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backToAdminChoiceActionPerformed
-
+        AdminChoice adminChoice = new AdminChoice();
+        adminChoice.setLocation(400, 200);
+        adminChoice.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_backToAdminChoiceActionPerformed
 
     /**

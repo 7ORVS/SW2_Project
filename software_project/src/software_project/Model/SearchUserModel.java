@@ -1,6 +1,6 @@
 package software_project.Model;
-import software_project.DatabaseConnection;
 
+import software_project.DatabaseConnection;
 import java.sql.SQLException;
 
 /*

@@ -11,8 +11,8 @@ import javax.swing.table.DefaultTableModel;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import software_project.Model.Model;
 import software_project.Controller.ControllerViewBills;
+import software_project.Model.Model;
 /**
  *
  * @author ALMASA

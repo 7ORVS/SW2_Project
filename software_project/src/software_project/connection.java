@@ -7,33 +7,20 @@ package software_project;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+
 /**
  *
- * @author hp
+ * @author ALMASA
  */
 public class connection {
 
-  public static Connection connect() throws ClassNotFoundException { 
+    public static Connection getconnection() throws SQLException {
+        String URL = "jdbc:sqlserver://localhost\\DESKTOP-O4872J7\\SQLEXPRESS:1433;databaseName=Electricbills";
+        String Name = "sa";
+        String Password = "123";
+        Connection connectDB = DriverManager.getConnection(URL, Name, Password);
+        System.out.println("Connection is successfull");
 
-    Connection con =null; 
-
-    Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-
-    String connectionURL="jdbc:sqlserver://localhost:1433;databaseName=Electricbills1;user=sa;password=123;encrypt=true;trustServerCertificate=true;"; 
-
-    try{
-
-    con=DriverManager.getConnection(connectionURL);
-    System.out.println("Connection is successfull");
-
+        return connectDB;
     }
-
-    catch(SQLException e){
-        System.out.println(e);
-
-    }
-        return con;
-    }
-      
 }
-

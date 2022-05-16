@@ -154,7 +154,7 @@ public class CustomerController {
             ResultSet exist = database.getRecords(customerModel.sql);
             while (exist.next()) {
                 setCustomerMetercode(exist.getInt("METERCODE"));
-                setCustomerFirstName(exist.getString("FIRSTNAME"));
+                setCustomerFirstName(exist.getString("USERNAME"));
                 setCustomerLastName(exist.getString("LASTNAME"));
                 setCustomerRegion(exist.getString("REGION"));
                 setCustomerStreetName(exist.getString("STREETNAME"));

@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.sql.ResultSet;
 import software_project.Model.Model;
-import software_project.GUI.ViewAllBills;
+
 /**
  *
  * @author ALMASA
