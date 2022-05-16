@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Collect_Payment.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Change_tariff.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Operator_payments_controller.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/model/Tariff_Kilowatt_model.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Metercode_controller.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Operator_tariff_controller.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/model/Bill_model.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/model/Reading_model.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Operator_validation_controller.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/model/Metercode_model.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/connection.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Operator_bills_controller.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Payment.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/model/Collected_model.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Operator_functions.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Reading_Validation.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/Software_project.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/Stop_metercode.java</file>
+            <file>file:/D:/projects/java/SW2_Project/software_project/src/software_project/GUI/print_bill.java</file>
+        </group>
+    </open-files>
+</project-private>
