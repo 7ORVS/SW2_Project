@@ -3,17 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/Software_project.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerReadingView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerComplainView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerPayBillView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerModel.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerShowBillsView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerOptions.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/connection.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/NewCustomerView.java</file>
-            <file>file:/C:/Users/ALMASA/Downloads/software_project1/software_project/src/software_project/OldCustomerController.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/connection.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/AddUserModel.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/AddAdministratorView.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/CustomerModel.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/DeleteAdministratorView.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/ILogin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/ControllerViewBills.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/class1.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/ViewOperatorLogin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/DeleteUserModel.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Software_project.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/CustomerController.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/ViewCustomerLogin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/ControllerCollectBills.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/MainLogin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/LoginAdmin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/AdminChoice.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/LoginOperator.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/Model.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/AddOperatorView.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Controller/LoginCustomer.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/CollectedTotal.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/model1.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/ViewAdminLogin.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/OperatorModel.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/DatabaseConnection.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/Model/AdminModel.java</file>
+            <file>file:/C:/Users/ALMASA/Documents/GitHub/SW2_Project/software_project/src/software_project/GUI/ViewAllBills.java</file>
         </group>
     </open-files>
 </project-private>

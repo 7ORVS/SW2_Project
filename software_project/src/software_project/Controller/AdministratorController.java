@@ -22,19 +22,7 @@ public class AdministratorController {
     DatabaseConnection database = new DatabaseConnection();
     AdminModel adminModel = new AdminModel();
 
-//    public String AdminUsername;
-//    public int AdminPassword;
-//    public int AdminID;
-//    int result;
-//    String sql;
-    //String mylist[] = new String[100] ;
-    //int size=0,i=0,c;
-//    public AdministratorController() {
-//        this.AdminUsername = AdminUsername;
-//        this.AdminPassword = AdminPassword;
-//        this.AdminID = AdminID;
-//        
-//    }
+
     public String getAdminUsername() {
         return adminModel.getAdminUsername();
     }
@@ -64,7 +52,9 @@ public class AdministratorController {
             AddUserModel addAdmin = new AddUserModel();
             addAdmin.AddAdmin(adminModel.AdminUsername, adminModel.AdminPassword, adminModel.AdminID);
         } catch (SQLException ex) {
-            database.showErrorDialog("SOMETHING WRONG !!!!");
+                        System.out.println(ex.getMessage());
+
+            //database.showErrorDialog("SOMETHING WRONG !!!!");
         }
     }
 

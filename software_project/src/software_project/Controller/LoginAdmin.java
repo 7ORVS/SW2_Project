@@ -25,8 +25,8 @@ public class LoginAdmin implements ILogin{
             SQL = login.QueryOfLoginAdmin();
             result = login.ConnectionWithDatabase(SQL);
             while (result.next()){
-                String Name = result.getString("username");
-                String Password = result.getString("password");
+                String Name = result.getString("USERNAME");
+                String Password = result.getString("PASS");
                 if (Name.compareTo(userName) == 0 && Password.compareTo(password) == 0) {
                     return true;
                 }

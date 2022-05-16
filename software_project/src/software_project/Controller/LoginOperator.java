@@ -26,7 +26,7 @@ public class LoginOperator implements ILogin{
             result = login.ConnectionWithDatabase(SQL);
             while (result.next()){
                 String Name = result.getString("username");
-                String Password = result.getString("password");
+                String Password = result.getString("pass");
                 if (Name.compareTo(userName) == 0 && Password.compareTo(password) == 0) {
                     return true;
                 }

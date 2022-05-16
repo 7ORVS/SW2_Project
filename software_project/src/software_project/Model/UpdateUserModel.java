@@ -1,7 +1,7 @@
 package software_project.Model;
+
+
 import software_project.DatabaseConnection;
-
-
 import java.sql.SQLException;
 
 /*
@@ -51,7 +51,7 @@ public class UpdateUserModel {
     public String UpdateCustomer(int CustomerMetercode, String CustomerFirstName, String CustomerLastName, String CustomerRegion, String CustomerStreetName, int CustomerStreetNumber, int CustomerFloorNumber, String CustomerEmail, int CustomerPassword, String CustomerComplain, int CustomerIsFreeze) throws SQLException {
         try {
             database.getInstance();
-            sql = "UPDATE INFORMATION SET FIRSTNAME='" + CustomerFirstName + "',LASTNAME='" + CustomerLastName + "',REGION='" + CustomerRegion + "',STREETNAME='" + CustomerStreetName
+            sql = "UPDATE INFORMATION SET username='" + CustomerFirstName + "',LASTNAME='" + CustomerLastName + "',REGION='" + CustomerRegion + "',STREETNAME='" + CustomerStreetName
                     + "',STREETNO='" + CustomerStreetNumber + "',FLOORNO='" + CustomerFloorNumber + "',Email='" + CustomerEmail
                     + "',COMPLIMENT='" + CustomerComplain + "',PASSWORD='" + CustomerPassword + "',isFreeze='" + CustomerIsFreeze + "' WHERE METERCODE ='" + CustomerMetercode + "' ";
             result = database.update(sql);

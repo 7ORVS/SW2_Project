@@ -120,7 +120,10 @@ public class DeleteUserChoiceView extends javax.swing.JFrame {
     }//GEN-LAST:event_updateAdministratorActionPerformed
 
     private void backToAdminChoiceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backToAdminChoiceActionPerformed
-
+        AdminChoice adminChoice = new AdminChoice();
+        adminChoice.setLocation(400, 200);
+        adminChoice.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_backToAdminChoiceActionPerformed
 
     /**

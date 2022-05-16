@@ -1,8 +1,8 @@
 package software_project.Model;
+
+
+
 import software_project.DatabaseConnection;
-
-
-
 import java.sql.SQLException;
 
 /*
@@ -29,6 +29,7 @@ public class AddUserModel {
             }
 
         } catch (SQLException ex) {
+              System.out.println(ex.getMessage());
             database.showErrorDialog("SOMETHING WRONG !!!!");
         }
         return null;
@@ -52,7 +53,7 @@ public class AddUserModel {
     public String AddCustomer(String CustomerFirstName, String CustomerLastName, String CustomerRegion, String CustomerStreetName, int CustomerStreetNumber, int CustomerFloorNumber, int CustomerApartmentNumber, String CustomerEmail, int CustomerPassword) throws SQLException {
         try {
             database.getInstance();
-            sql = " insert into information(firstname,lastname,region,streetname,streetno,floorno,apartmentno,email,password) values ('" + CustomerFirstName + "','" + CustomerLastName + "','" + CustomerRegion + "','" + CustomerStreetName + "','" + CustomerStreetNumber + "','" + CustomerFloorNumber + "','" + CustomerApartmentNumber + "','" + CustomerEmail + "','" + CustomerPassword + "')";
+            sql = " insert into information(username,lastname,region,streetname,streetno,floorno,apartmentno,email,password) values ('" + CustomerFirstName + "','" + CustomerLastName + "','" + CustomerRegion + "','" + CustomerStreetName + "','" + CustomerStreetNumber + "','" + CustomerFloorNumber + "','" + CustomerApartmentNumber + "','" + CustomerEmail + "','" + CustomerPassword + "')";
 
             result = database.update(sql);
 
