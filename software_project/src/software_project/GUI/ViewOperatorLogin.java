@@ -191,7 +191,7 @@ public class ViewOperatorLogin extends javax.swing.JFrame {
             Operator.setLocation(400, 200);
             Operator.setVisible(true);
             this.dispose();
-           // new Operator_functions().setVisible(true);
+            new Operator_functions().setVisible(true);
         } else
             JOptionPane.showMessageDialog(null, "Invalid User Name or Invalid Password", "Login Error", JOptionPane.ERROR_MESSAGE);
     }//GEN-LAST:event_LoginOperatorActionPerformed

@@ -212,6 +212,7 @@ public class ViewCustomerLogin extends javax.swing.JFrame {
             Customer.setLocation(400, 200);
             Customer.setVisible(true);
             this.dispose();
+            new OldCustomerView().setVisible(true);
         } else
             JOptionPane.showMessageDialog(null, "Invalid User Name or Invalid Password", "Login Error", JOptionPane.ERROR_MESSAGE);
     }//GEN-LAST:event_loginCustomerActionPerformed
