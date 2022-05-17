@@ -20,9 +20,9 @@ import javax.swing.JOptionPane;
 public class DatabaseConnection {
 
 
-    public static final String URL = "jdbc:sqlserver://localhost\\DESKTOP-O4872J7\\SQLEXPRESS:1433;databaseName=Electricbills";
-    public static final String USER_NAME = "sa";
-    public static final String PASSWORD = "123";
+    public static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=Electricbills;encrypt=true;trustServerCertificate=true;";
+    public static final String USER_NAME = "tarek";
+    public static final String PASSWORD = "1362001116";
     public static Connection connection;
     public static Statement statement;
     public static ResultSet resultSet;

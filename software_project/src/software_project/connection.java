@@ -15,9 +15,9 @@ import java.sql.SQLException;
 public class connection {
 
     public static Connection getconnection() throws SQLException {
-        String URL = "jdbc:sqlserver://localhost\\DESKTOP-O4872J7\\SQLEXPRESS:1433;databaseName=Electricbills";
-        String Name = "sa";
-        String Password = "123";
+        String URL = "jdbc:sqlserver://localhost:1433;databaseName=Electricbills;encrypt=true;trustServerCertificate=true;";
+        String Name = "tarek";
+        String Password = "1362001116";
         Connection connectDB = DriverManager.getConnection(URL, Name, Password);
         System.out.println("Connection is successfull");
 
