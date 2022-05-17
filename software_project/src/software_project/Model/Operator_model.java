@@ -44,31 +44,31 @@ public class Operator_model {
       return array;
     }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static Object[] viewbills (String region)throws ClassNotFoundException, SQLException
-    {
-        Object[] array = new Object[9];
-        try{
-        Connection con = connect();
-        PreparedStatement pstmt = con.prepareStatement("Select metercode, firstname, lastname, streetname, streetno, floorno, apartmentno, id, kilowatt from information where region = ?;");
-        pstmt.setString(1, region);
-        ResultSet rs=pstmt.executeQuery();
-        while(rs.next())
-        {
-           array[0] = rs.getInt(1);
-           array[1] = rs.getString(2);
-           array[2] = rs.getString(3);
-           array[3] = rs.getString(4);
-           array[4] = rs.getInt(5);
-           array[5] = rs.getInt(6);
-           array[6] = rs.getInt(7);
-           array[7] = rs.getInt(8);
-           array[8]= rs.getInt(9);
-        }
-       con.close();
-        }
-        catch (ClassNotFoundException | SQLException e) {System.out.print(e);}
-      return array;
-    }
+//    public static Object[] viewbills (String region)throws ClassNotFoundException, SQLException
+//    {
+//        Object[] array = new Object[9];
+//        try{
+//        Connection con = connect();
+//        PreparedStatement pstmt = con.prepareStatement("Select metercode, firstname, lastname, streetname, streetno, floorno, apartmentno, id, kilowatt from information where region = ?;");
+//        pstmt.setString(1, region);
+//        ResultSet rs=pstmt.executeQuery();
+//        while(rs.next())
+//        {
+//           array[0] = rs.getInt(1);
+//           array[1] = rs.getString(2);
+//           array[2] = rs.getString(3);
+//           array[3] = rs.getString(4);
+//           array[4] = rs.getInt(5);
+//           array[5] = rs.getInt(6);
+//           array[6] = rs.getInt(7);
+//           array[7] = rs.getInt(8);
+//           array[8]= rs.getInt(9);
+//        }
+//       con.close();
+//        }
+//        catch (ClassNotFoundException | SQLException e) {System.out.print(e);}
+//      return array;
+//    }
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static void update_Pay_bill (int metercode) throws ClassNotFoundException, SQLException
     {

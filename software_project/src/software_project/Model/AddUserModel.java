@@ -4,6 +4,9 @@ package software_project.Model;
 
 import software_project.DatabaseConnection;
 import java.sql.SQLException;
+import javax.swing.JOptionPane;
+import static software_project.Controller.Generate_metercode.Generate_metercode;
+import software_project.Controller.Generate_metercode;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -50,10 +53,11 @@ public class AddUserModel {
         return null;
     }
 
-    public String AddCustomer(String CustomerFirstName, String CustomerLastName, String CustomerRegion, String CustomerStreetName, int CustomerStreetNumber, int CustomerFloorNumber, int CustomerApartmentNumber, String CustomerEmail, int CustomerPassword) throws SQLException {
+    public void AddCustomer(String CustomerFirstName, String CustomerLastName, String CustomerRegion, String CustomerStreetName, int CustomerStreetNumber, int CustomerFloorNumber, int CustomerApartmentNumber, String CustomerEmail, int CustomerPassword) throws SQLException {
+        int metercode = Generate_metercode.Generate_metercode();
         try {
             database.getInstance();
-            sql = " insert into information(username,lastname,region,streetname,streetno,floorno,apartmentno,email,password) values ('" + CustomerFirstName + "','" + CustomerLastName + "','" + CustomerRegion + "','" + CustomerStreetName + "','" + CustomerStreetNumber + "','" + CustomerFloorNumber + "','" + CustomerApartmentNumber + "','" + CustomerEmail + "','" + CustomerPassword + "')";
+            sql = " insert into information(metercode,username,lastname,region,streetname,streetno,floorno,apartmentno,email,password) values ('" + metercode + "','" + CustomerFirstName + "','" + CustomerLastName + "','" + CustomerRegion + "','" + CustomerStreetName + "','" + CustomerStreetNumber + "','" + CustomerFloorNumber + "','" + CustomerApartmentNumber + "','" + CustomerEmail + "','" + CustomerPassword + "')";
 
             result = database.update(sql);
 
@@ -64,6 +68,7 @@ public class AddUserModel {
         } catch (SQLException ex) {
             database.showErrorDialog("SOMETHING WRONG !!!!");
         }
-        return null;
+        JOptionPane.showMessageDialog(null,"Your metercode is :"+metercode);
+        
     }
 }

@@ -10,10 +10,11 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import software_project.Controller.LoginCustomer;
 
-/**
+/*
  *
- * @author ALMASA
+ *@author ALMASA
  */
+
 public class ViewCustomerLogin extends javax.swing.JFrame {
 
     /**
